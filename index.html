@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name – Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #121212;
+      --fg: #ffffff;
+      --accent: #145747;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      color: var(--accent);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .section {
+      margin-bottom: 3rem;
+    }
+
+    .project-card {
+      background: #1e1e1e;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      transition: 0.2s ease;
+    }
+
+    .project-card:hover {
+      background: #2a2a2a;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.7;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="section">
+      <h1>YMaiesha Siddika</h1>
+      <p>Maths student and aspiring data scientist. Interested in energy, finance, and machine learning. Passionate about making data science accessible to underrepresented groups.</p>
+    </header>
+
+    <section class="section">
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <h3>📈 Store Sales Forecasting</h3>
+        <p>Used LSTM models to predict future sales trends using historical data. Focused on seasonality and optimization.</p>
+        <a href="https://github.com/m1m1kah" target="_blank">View on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>🔍 ESG Portfolio Optimizer</h3>
+        <p>Built a mean-variance optimizer with ESG constraints using Python and historical stock data. Integrated Alpha Vantage API.</p>
+        <a href="https://github.com/m1m1kah" target="_blank">View on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>🖼️ Shelf Detection with YOLOv5</h3>
+        <p>Trained a YOLOv5 object detection model using Roboflow data to identify retail shelf segments. Deployed via Colab.</p>
+        <a href="https://github.com/m1m1kah" target="_blank">View on GitHub →</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      © 2025 Your Name • <a href="https://github.com/m1m1kah" target="_blank">GitHub</a>
+    </footer>
+  </div>
+</body>
+</html>
+
