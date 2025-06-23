@@ -1,2 +1,6 @@
 # m1m1kah.github.io
-This is my personal website 
+## Maiesha Siddika 
+
+This is my personal website. I am going to add portfolio projects and maybe even mini blog posts. 
+
+
